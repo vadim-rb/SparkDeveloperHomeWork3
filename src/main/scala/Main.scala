@@ -4,9 +4,6 @@ import java.util.Properties
 import MyConfig.Config
 import org.apache.spark.sql.functions.{col, count, mean, round}
 
-
-
-
 object Main {
   def main(args: Array[String]): Unit = {
     val spark: SparkSession = SparkSession.builder()
